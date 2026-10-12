@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lembar Penilaian Guru Pamong PPL 2 — Siklus 3</title>
+<style>
+:root {
+    --dark-green: #14382a;
+    --sage: #6d8653;
+    --sage-light: #a9b98f;
+    --gold: #c9a84c;
+    --cream: #faf5e9;
+    --cream-dark: #e8e0cb;
+    --gray-800: #1f2937;
+    --gray-600: #4b5563;
+    --gray-500: #6b7280;
+    --white: #ffffff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    background: #e5e7eb;
+    color: var(--gray-800);
+    padding: 30px 12px;
+}
+.sheet {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--white);
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+.sheet-head {
+    background: linear-gradient(135deg, var(--dark-green), var(--sage));
+    color: var(--white);
+    padding: 26px 34px;
+    position: relative;
+}
+.sheet-head h1 {
+    font-size: 21px; letter-spacing: 0.8px; text-transform: uppercase;
+}
+.sheet-head p { font-size: 13px; color: rgba(255,255,255,0.85); margin-top: 4px; }
+.sheet-head .gold-line {
+    position: absolute; left: 0; bottom: 0; height: 5px; width: 100%;
+    background: linear-gradient(90deg, var(--gold), #e3c877, var(--gold));
+}
+.sheet-body { padding: 28px 34px 34px; }
+
+/* identitas */
+.ident-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px 28px;
+    background: var(--cream);
+    border: 1px solid var(--cream-dark);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 26px;
+}
+.ident-item { display: flex; flex-direction: column; gap: 2px; font-size: 13px; }
+.ident-item span { color: var(--gray-500); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+.ident-item b { font-weight: 600; }
+.ident-item .under { border-bottom: 1px solid #b7ab8c; padding-bottom: 2px; min-height: 20px; }
+.ident-grid label { font-size: 12.5px; }
+.ident-grid input, .ident-grid select {
+    width: 100%;
+    border: none; border-bottom: 1.5px solid #b7ab8c;
+    background: transparent;
+    font-family: inherit; font-size: 13.5px; font-weight: 600; color: var(--gray-800);
+    padding: 3px 2px;
+    outline: none;
+}
+
+/* section */
+.section-title {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 14.5px; font-weight: 700; color: var(--dark-green);
+    text-transform: uppercase; letter-spacing: 0.8px;
+    margin: 22px 0 10px;
+}
+.section-title .no {
+    width: 24px; height: 24px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--dark-green), var(--sage));
+    color: #fff; font-size: 12px;
+    display: inline-flex; align-items: center; justify-content: center;
+}
+.section-note { font-size: 12px; color: var(--gray-500); margin-bottom: 8px; }
+
+table {
+    width: 100%; border-collapse: collapse; font-size: 12.5px;
+}
+table th, table td {
+    border: 1px solid #d4cdb6;
+    padding: 8px 10px;
+    vertical-align: middle;
+}
+table th {
+    background: var(--cream);
+    color: var(--dark-green);
+    font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px;
+}
+table th.score, table td.score { text-align: center; width: 40px; }
+table .lbl-aspek { font-weight: 600; }
+table .lbl-desc { color: var(--gray-500); font-size: 11px; display: block; font-weight: 400; }
+table td input[type=number] {
+    width: 48px; text-align: center; padding: 4px; border: 1px solid #ccc;
+    border-radius: 4px; font-family: inherit; font-size: 13px;
+}
+.score-input { width: 52px !important; text-align: center; padding: 5px; border: 1px solid var(--cream-dark); border-radius: 6px; font-family: inherit; font-size: 13px; }
+.score-input:focus { outline: 2px solid var(--sage); border-color: transparent; }
+.result {
+    font-weight: 800; color: var(--dark-green); background: var(--cream);
+}
+
+.total-row td { font-weight: 700; background: var(--cream); font-size: 12.5px; }
+.nilai-box {
+    margin-top: 20px;
+    background: linear-gradient(135deg, var(--dark-green), var(--sage));
+    color: #fff; border-radius: 12px;
+    padding: 18px 24px;
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.nilai-box .lbl { font-size: 12px; color: rgba(255,255,255,0.85); }
+.nilai-box .val { font-size: 28px; font-weight: 800; }
+.nilai-box .val small { font-size: 14px; font-weight: 400; }
+.nilai-box .sep { width: 1px; height: 38px; background: rgba(255,255,255,0.3); }
+.nilai-box .predikat { font-size: 18px; font-weight: 800; }
+
+.catatan { margin-top: 20px; }
+.catatan label { font-size: 12.5px; font-weight: 700; color: var(--dark-green); display: block; margin-bottom: 6px; }
+.catatan textarea {
+    width: 100%; min-height: 70px; border: 1px solid var(--cream-dark); border-radius: 8px;
+    padding: 10px 12px; font-family: inherit; font-size: 13px; resize: vertical;
+}
+
+.ttd {
+    display: flex; justify-content: space-between; margin-top: 32px; text-align: center;
+    font-size: 13px;
+}
+.ttd .col { width: 40%; }
+.ttd .space { height: 60px; }
+.ttd .garis { border-bottom: 1.5px solid #1f2937; width: 220px; margin: 0 auto; max-width: 100%; }
+.ttd .cap { margin-top: 5px; font-style: italic; color: var(--gray-500); }
+
+.btn-row { text-align: center; margin-top: 24px; }
+.btn-row button {
+    padding: 11px 24px; border: none; border-radius: 8px;
+    background: var(--dark-green); color: #fff; cursor: pointer;
+    font-family: inherit; font-size: 13.5px; font-weight: 700; letter-spacing: 0.3px;
+    margin: 0 6px;
+}
+.btn-row button.ghost { background: var(--gray-500); }
+
+.drive{margin-top:18px;border:1px solid #d5dde5;border-radius:8px;padding:14px 16px;background:#f7fafc}
+.drive b{display:block;color:#2e7d32;font-size:13px}
+.drive p{font-size:12px;color:#666;margin:4px 0 10px}
+.drive-btn{display:inline-block;padding:9px 16px;background:#1a73e8;color:#fff;border-radius:6px;font-size:13px;text-decoration:none}
+.drive-btn:hover{background:#1557b0}
+@media print {
+    body { background: #fff; padding: 0; }
+    .sheet { box-shadow: none; border-radius: 0; }
+    .btn-row { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+    <div class="sheet-head">
+        <h1>Lembar Penilaian Guru Pamong</h1>
+        <p>PPL 2 Mandiri — Siklus 1 · Bimbingan Klasikal · Pendidikan Profesi Guru BK · Universitas Negeri Makassar</p>
+        <div class="gold-line"></div>
+    </div>
+
+    <div class="sheet-body">
+        <div class="ident-grid">
+            <label>Nama Mahasiswa<input value="SUPRIADI .J, S.Pd"></label>
+            <label>NIM<input value="2590204950888"></label>
+            <label>Sekolah Mitra<input value="MTsN 1 Kota Makassar"></label>
+            <label>Jenis Layanan
+                <select name="jenis-layanan">
+                    <option value="">- Pilih -</option>
+                    <option>1. Bimbingan Klasikal</option>
+                    <option>2. Bimbingan Kelompok</option>
+                    <option selected>3. Konseling Kelompok</option>
+                    <option>4. Konseling Individu</option>
+                </select>
+            </label>
+            <label>Tema / Topik Layanan<input value="Menyelesaikan Masalah Bersama"></label>
+            <label>Tanggal Pelaksanaan<input type="date"></label>
+            <label>Penilai (Guru Pamong)<input placeholder="Nama Guru Pamong"></label>
+        </div>
+
+        <!-- BAGIAN A -->
+        <div class="section-title"><span class="no">A</span> Penilaian Perangkat Layanan (RPL)</div>
+        <p class="section-note">Berikan skor 1-4 pada setiap aspek. 1 = Kurang, 2 = Cukup, 3 = Baik, 4 = Sangat Baik.</p>
+        <table id="tabelA">
+            <thead>
+                <tr><th style="text-align:left; width:50%;">Aspek yang Dinilai</th><th class="score">1</th><th class="score">2</th><th class="score">3</th><th class="score">4</th><th class="score">Skor</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="lbl-aspek">Kejelasan identitas &amp; komponen RPL<span class="lbl-desc">Jenis layanan, bidang, sasaran, alokasi waktu</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Kesesuaian topik dengan kebutuhan peserta didik<span class="lbl-desc">Berdasarkan hasil AKPD / asesmen</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Kejelasan tujuan layanan<span class="lbl-desc">Tujuan operasional dan terukur</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Kesesuaian materi dengan tujuan &amp; karakteristik siswa<span class="lbl-desc">Kedalaman dan ketepatan konten</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Kemenarikan &amp; kesesuaian media<span class="lbl-desc">Media mendukung pemahaman dan keterlibatan</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Kesesuaian metode / teknik layanan<span class="lbl-desc">Metode klasikal yang interaktif</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Kelengkapan langkah kegiatan &amp; manajemen waktu<span class="lbl-desc">Pembukaan, inti, penutup; alokasi tiap tahap</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Kelengkapan instrumen &amp; mekanisme evaluasi<span class="lbl-desc">Evaluasi proses dan hasil</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+            </tbody>
+            <tfoot>
+                <tr class="total-row"><td colspan="5">Subtotal Bagian A (maks. 32)</td><td class="result" id="sumA">0</td></tr>
+            </tfoot>
+        </table>
+
+        <!-- BAGIAN B -->
+        <div class="section-title"><span class="no">B</span> Penilaian Pelaksanaan Layanan</div>
+        <p class="section-note">Berikan skor 1-4 pada setiap aspek pelaksanaan layanan di lapangan.</p>
+        <table id="tabelB">
+            <thead>
+                <tr><th style="text-align:left; width:50%;">Aspek yang Dinilai</th><th class="score">1</th><th class="score">2</th><th class="score">3</th><th class="score">4</th><th class="score">Skor</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="lbl-aspek">Kesiapan &amp; penguasaan materi<span class="lbl-desc">Penguasaan substansi, fleksibilitas menjawab</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Pembukaan &amp; pengelolaan kondisi<span class="lbl-desc">Kontrak layanan, kesepakatan, apersepsi, ice breaking</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Komunikasi verbal &amp; non-verbal<span class="lbl-desc">Kejelasan suara, intonasi, kontak mata, bahasa tubuh</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Teknik memandu / memfasilitasi<span class="lbl-desc">Teknik sesuai jenis layanan</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Penggunaan media &amp; alat bantu<span class="lbl-desc">Media dimanfaatkan efektif, tidak kecanduan pada laptop</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Membangun interaksi &amp; iklim yang aman<span class="lbl-desc">Keterlibatan aktif siswa, rasa aman, inklusif</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Penanganan dinamika &amp; kendala<span class="lbl-desc">Mengatasi siswa pasif, gaduh, atau konflik saat sesi</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Kepekaan terhadap kebutuhan &amp; emosi siswa<span class="lbl-desc">Empati, mendengar aktif, validasi</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Evaluasi &amp; penutupan layanan<span class="lbl-desc">Refleksi, simpulan, komitmen/rencana tindak lanjut</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+                <tr><td class="lbl-aspek">Sikap profesional &amp; kode etik BK<span class="lbl-desc">Asas kerahasiaan, etika konseling, tutur, penampilan, waktu</span></td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score">o</td><td class="score"><input type="number" class="score-input" min="1" max="4"></td></tr>
+            </tbody>
+            <tfoot>
+                <tr class="total-row"><td colspan="5">Subtotal Bagian B (maks. 40)</td><td class="result" id="sumB">0</td></tr>
+            </tfoot>
+        </table>
+
+        <!-- NILAI AKHIR -->
+        <div class="nilai-box">
+            <div><div class="lbl">Subtotal A + B</div><div class="val" id="sumAB">0</div></div>
+            <div class="sep"></div>
+            <div><div class="lbl">Nilai Akhir</div><div class="val"><span id="nilaiAkhir">0</span><small> / 100</small></div></div>
+            <div class="sep"></div>
+            <div><div class="lbl">Predikat</div><div class="predikat" id="predikat">-</div></div>
+        </div>
+
+        <!-- Catatan -->
+        <div class="catatan">
+            <label>Catatan / Saran Guru Pamong</label>
+            <textarea placeholder="Tuliskan catatan, masukan, dan rekomendasi perbaikan layanan..."></textarea>
+        </div>
+
+        <!-- TTD -->
+        <div class="ttd">
+            <div class="col">
+                <div>Mengetahui,<br>Dosen Pembimbing</div>
+                <div class="space"></div>
+                <div class="garis"></div>
+                <div class="cap">( ................................ )</div>
+            </div>
+            <div class="col">
+                <div>Makassar, ................................</div>
+                <div class="space"></div>
+                <div class="garis"></div>
+                <div class="cap">Guru Pamong</div>
+            </div>
+        </div>
+
+
+    <div class="drive">
+      <b>Berkas pendukung (Google Drive)</b>
+      <p>Jika berkas asli (PDF/PPT) sudah diunggah ke Google Drive, tempel tautannya pada tombol di bawah ini.</p>
+      <a class="drive-btn" href="#" target="_blank" rel="noopener">Lihat berkas di Google Drive &#8599;</a>
+    </div>        <div class="btn-row">
+            <button onclick="window.print()">Cetak / Simpan PDF</button>
+            <button class="ghost" onclick="resetForm()">Kosongkan Isian</button>
+        </div>
+    </div>
+</div>
+
+<script>
+function hitung() {
+    var a = 0;
+    document.querySelectorAll('#tabelA .score-input').forEach(function (i) {
+        var v = parseInt(i.value, 10);
+        if (!isNaN(v)) a += v;
+    });
+    var b = 0;
+    document.querySelectorAll('#tabelB .score-input').forEach(function (i) {
+        var v = parseInt(i.value, 10);
+        if (!isNaN(v)) b += v;
+    });
+    document.getElementById('sumA').textContent = a;
+    document.getElementById('sumB').textContent = b;
+    var total = a + b;
+    document.getElementById('sumAB').textContent = total;
+    var nilai = Math.round((total / 72) * 100 * 100) / 100;
+    document.getElementById('nilaiAkhir').textContent = nilai;
+    var pred = '-';
+    if (nilai >= 90) pred = 'A - Sangat Baik';
+    else if (nilai >= 80) pred = 'B - Baik';
+    else if (nilai >= 70) pred = 'C - Cukup';
+    else if (nilai > 0) pred = 'D - Perlu Bimbingan';
+    document.getElementById('predikat').textContent = pred;
+}
+function resetForm() {
+    document.querySelectorAll('.score-input').forEach(function (i) { i.value = ''; });
+    hitung();
+}
+document.querySelectorAll('.score-input').forEach(function (i) {
+    i.addEventListener('input', hitung);
+});
+hitung();
+</script>
+</body>
+</html>
+

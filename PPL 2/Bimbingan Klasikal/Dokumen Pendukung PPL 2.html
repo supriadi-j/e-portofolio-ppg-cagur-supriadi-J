@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dokumen Pendukung PPL 2 — Siklus 1</title>
+<style>
+:root {
+    --dark-green: #14382a;
+    --sage: #6d8653;
+    --sage-light: #a9b98f;
+    --gold: #c9a84c;
+    --cream: #faf5e9;
+    --cream-dark: #e8e0cb;
+    --gray-800: #1f2937;
+    --gray-600: #4b5563;
+    --gray-500: #6b7280;
+    --white: #ffffff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    background: #e5e7eb;
+    color: var(--gray-800);
+    padding: 30px 12px;
+}
+.sheet {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--white);
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+.sheet-head {
+    background: linear-gradient(135deg, var(--dark-green), var(--sage));
+    color: var(--white);
+    padding: 26px 34px;
+    position: relative;
+}
+.sheet-head h1 { font-size: 21px; letter-spacing: 0.8px; text-transform: uppercase; }
+.sheet-head p { font-size: 13px; color: rgba(255,255,255,0.85); margin-top: 4px; }
+.sheet-head .gold-line {
+    position: absolute; left: 0; bottom: 0; height: 5px; width: 100%;
+    background: linear-gradient(90deg, var(--gold), #e3c877, var(--gold));
+}
+.sheet-body { padding: 28px 34px 34px; }
+
+.ident-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px 28px;
+    background: var(--cream);
+    border: 1px solid var(--cream-dark);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+}
+.ident-item { display: flex; flex-direction: column; gap: 2px; font-size: 13px; }
+.ident-item span { color: var(--gray-500); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+.ident-item b { font-weight: 600; }
+.ident-item .under { border-bottom: 1px solid #b7ab8c; padding-bottom: 2px; min-height: 20px; }
+
+.section-title {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 14.5px; font-weight: 700; color: var(--dark-green);
+    text-transform: uppercase; letter-spacing: 0.8px;
+    margin: 22px 0 10px;
+}
+.section-title .no {
+    width: 24px; height: 24px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--dark-green), var(--sage));
+    color: #fff; font-size: 12px;
+    display: inline-flex; align-items: center; justify-content: center;
+}
+.section-note { font-size: 12px; color: var(--gray-500); margin-bottom: 10px; }
+
+.doc-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.doc-table th, .doc-table td {
+    border: 1px solid #d4cdb6; padding: 8px 10px; vertical-align: top; text-align: left;
+}
+.doc-table th {
+    background: var(--cream); color: var(--dark-green);
+    font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px;
+}
+.doc-table .no { width: 34px; text-align: center; }
+.doc-table .dok { width: 34%; }
+.doc-table .sta { width: 160px; text-align: center; }
+.status-tag {
+    display: inline-block; padding: 3px 10px; border-radius: 20px;
+    font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px;
+}
+.tag-menunggu { background: #fef3c7; color: #92400e; }
+.tag-siap { background: #d1fae5; color: #065f46; }
+.keterangan { font-size: 11px; color: var(--gray-500); margin-top: 4px; display: block; }
+
+.asas-box {
+    background: var(--cream); border-left: 4px solid var(--gold);
+    border-radius: 8px; padding: 14px 18px; margin-top: 20px; font-size: 12.5px;
+}
+.asas-box h4 { font-size: 12.5px; color: var(--dark-green); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
+.asas-box ul { padding-left: 18px; }
+.asas-box li { margin-bottom: 5px; color: var(--gray-600); }
+.asas-box b { color: var(--gray-800); }
+
+.btn-row { text-align: center; margin-top: 24px; }
+.btn-row button {
+    padding: 11px 24px; border: none; border-radius: 8px;
+    background: var(--dark-green); color: #fff; cursor: pointer;
+    font-family: inherit; font-size: 13.5px; font-weight: 700; letter-spacing: 0.3px;
+    margin: 0 6px;
+}
+.btn-row button.ghost { background: var(--gray-500); }
+@media print {
+    body { background: #fff; padding: 0; }
+    .sheet { box-shadow: none; border-radius: 0; }
+    .btn-row { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+    <div class="sheet-head">
+        <h1>Dokumen Pendukung PPL 2</h1>
+        <p>PPL 2 Mandiri — Siklus 1 · Bimbingan Klasikal · Pendidikan Profesi Guru BK · Universitas Negeri Makassar</p>
+        <div class="gold-line"></div>
+    </div>
+
+    <div class="sheet-body">
+        <div class="ident-grid">
+            <div class="ident-item"><span>Nama Mahasiswa</span><b>SUPRIADI .J, S.Pd</b></div>
+            <div class="ident-item"><span>NIM</span><b>2590204950888</b></div>
+            <div class="ident-item"><span>Sekolah Mitra</span><b>MTsN 1 Kota Makassar</b></div>
+            <div class="ident-item"><span>Jenis Layanan</span><b>Bimbingan Klasikal</b></div>
+            <div class="ident-item"><span>Tema / Topik</span><b>Aku dan Peranku di Sekolah</b></div>
+            <div class="ident-item"><span>Alokasi Waktu</span><b>1 × 40 menit (jenjang MTs)</b></div>
+        </div>
+
+        <div class="section-title"><span class="no">1</span> Daftar Dokumen Pendukung</div>
+        <p class="section-note">Centang / isi status saat dokumen telah diunggah. Keterangan ditulis sesuai asas BK &amp; kode etik profesi BK.</p>
+        <table class="doc-table">
+            <thead>
+                <tr><th class="no">No</th><th class="dok">Dokumen Pendukung</th><th>Kegunaan</th><th class="sta">Status</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="no">1</td>
+                    <td><b>RPLBK Bimbingan Klasikal</b></td>
+                    <td>Rencana pelaksanaan layanan (identitas, tujuan, tahapan 1 × 40 menit).</td>
+                    <td class="sta"><span class="status-tag tag-menunggu">Menunggu</span></td>
+                </tr>
+                <tr>
+                    <td class="no">2</td>
+                    <td><b>LKPD</b></td>
+                    <td>Lembar kerja peserta didik untuk aktivitas klasikal.</td>
+                    <td class="sta"><span class="status-tag tag-menunggu">Menunggu</span></td>
+                </tr>
+                <tr>
+                    <td class="no">3</td>
+                    <td><b>Media presentasi (PPT)</b></td>
+                    <td>Media pembuka, ice breaking, dan konten materi.</td>
+                    <td class="sta"><span class="status-tag tag-menunggu">Menunggu</span></td>
+                </tr>
+                <tr>
+                    <td class="no">4</td>
+                    <td><b>Instrumen AKPD / Rekap asesmen kebutuhan</b></td>
+                    <td>Dasar penetapan topik layanan (data agregat, tanpa identitas).</td>
+                    <td class="sta"><span class="status-tag tag-menunggu">Menunggu</span></td>
+                </tr>
+                <tr>
+                    <td class="no">5</td>
+                    <td><b>Rekapitulasi Evaluasi Proses</b></td>
+                    <td>Rekap anonim penilaian proses layanan (asas kerahasiaan).</td>
+                    <td class="sta"><span class="status-tag tag-menunggu">Menunggu</span></td>
+                </tr>
+                <tr>
+                    <td class="no">6</td>
+                    <td><b>Rekapitulasi Evaluasi Hasil</b></td>
+                    <td>Rekap anonim terhadap tujuan layanan yang dicapai.</td>
+                    <td class="sta"><span class="status-tag tag-menunggu">Menunggu</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="asas-box">
+            <h4>Dasar Etika Penampilan Dokumen</h4>
+            <ul>
+                <li><b>Asas kerahasiaan:</b> rekapitulasi evaluasi ditampilkan dalam bentuk agregat/anonim; data pribadi peserta didik tidak diekspos.</li>
+                <li><b>Asas kesukarelaan &amp; keterbukaan:</b> seluruh data diperoleh atas kemauan peserta didik dan digunakan untuk kepentingan layanan.</li>
+                <li><b>Kode etik profesi BK:</b> dokumen yang melibatkan kasus hanya ditampilkan tanpa identitas (inisial) dan hanya bila diperlukan.</li>
+            </ul>
+        </div>
+
+        <div class="btn-row">
+            <button onclick="window.print()">Cetak / Simpan PDF</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
