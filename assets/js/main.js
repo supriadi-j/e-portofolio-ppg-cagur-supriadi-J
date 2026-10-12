@@ -208,42 +208,42 @@
       title: "RPLBK",
       sub: "Rencana Pelaksanaan Layanan Bimbingan dan Konseling",
       files: [
-        { label: "RPLBK \u2014 Aku dan Peranku di Sekolah (Siklus 1)", path: "PPL 1/SIKLUS 1/RPLBK AKU DAN PERANKU DI SEKOLAH.pdf" },
-        { label: "RPL BK Kelompok \u2014 Tanggung Jawab Sosial (Siklus 2)", path: "PPL 1/SIKLUS 2/RPL_BK_KLP_Tanggung_Jawab_Sosial.pdf" },
-        { label: "RPL Klasikal \u2014 Seni Berteman (Siklus 3)", path: "PPL 1/SIKLUS 3/RPL_Klasikal_Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pdf" }
+        { label: "RPLBK \u2014 Aku dan Peranku di Sekolah (Siklus 1)", path: "SIKLUS 1/RPLBK AKU DAN PERANKU DI SEKOLAH.pdf" },
+        { label: "RPL BK Kelompok \u2014 Tanggung Jawab Sosial (Siklus 2)", path: "SIKLUS 2/RPL_BK_KLP_Tanggung_Jawab_Sosial.pdf" },
+        { label: "RPL Klasikal \u2014 Seni Berteman (Siklus 3)", path: "SIKLUS 3/RPL_Klasikal_Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pdf" }
       ]
     },
     laporan: {
       title: "Laporan PPL",
       sub: "Laporan dan lembar penilaian praktik pengalaman lapangan",
       files: [
-        { label: "Best Practice Pelaksanaan Layanan Klasikal", path: "PPL 1/BEST PRACTICE PELAKSANAAN LAYANAN KLASIKAL.pdf" },
-        { label: "Lembar Penilaian Penyusunan Perangkat Layanan", path: "PPL 1/Lembar Penilaian Penyusunan Perangkat Layanan .pdf" },
-        { label: "Lembar Penilaian Praktik Layanan", path: "PPL 1/Lembar Penilaian Praktik Layanan.pdf" }
+        { label: "Best Practice Pelaksanaan Layanan Klasikal", path: "BEST PRACTICE PELAKSANAAN LAYANAN KLASIKAL.pdf" },
+        { label: "Lembar Penilaian Penyusunan Perangkat Layanan", path: "Lembar Penilaian Penyusunan Perangkat Layanan .pdf" },
+        { label: "Lembar Penilaian Praktik Layanan", path: "Lembar Penilaian Praktik Layanan.pdf" }
       ]
     },
     materi: {
       title: "Materi Konseling",
       sub: "Materi layanan klasikal dan kelompok",
       files: [
-        { label: "PPT \u2014 Aku dan Peranku di Sekolah (Siklus 1)", path: "PPL 1/SIKLUS 1/PPT_SIKLUS1_SUPRIADI.pptx" },
-        { label: "PPT \u2014 Aku Peduli, Aku Berperan (Siklus 2)", path: "PPL 1/SIKLUS 2/AKU PEDULI, AKU BERPERAN.pptx" },
-        { label: "PPT \u2014 Seni Berteman (Siklus 3)", path: "PPL 1/SIKLUS 3/Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pptx" }
+        { label: "PPT \u2014 Aku dan Peranku di Sekolah (Siklus 1)", path: "SIKLUS 1/PPT_SIKLUS1_SUPRIADI.pptx" },
+        { label: "PPT \u2014 Aku Peduli, Aku Berperan (Siklus 2)", path: "SIKLUS 2/AKU PEDULI, AKU BERPERAN.pptx" },
+        { label: "PPT \u2014 Seni Berteman (Siklus 3)", path: "SIKLUS 3/Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pptx" }
       ]
     },
     asesmen: {
       title: "Instrumen Asesmen",
       sub: "LKPD serta evaluasi proses dan hasil layanan",
       files: [
-        { label: "LKPD Siklus 1", path: "PPL 1/SIKLUS 1/LKPD_SIKLUS1_SUPRIADI.pdf" },
-        { label: "LKPD dan Lembar Refleksi \u2014 Siklus 2", path: "PPL 1/SIKLUS 2/LKPD dan Lembar Refleksi.pdf" },
-        { label: "Lembar Kerja Peserta Didik \u2014 Siklus 3", path: "PPL 1/SIKLUS 3/LEMBAR KERJA PESERTA DIDIK.pdf" },
-        { label: "Rekapitulasi Evaluasi Proses \u2014 Siklus 1", path: "PPL 1/SIKLUS 1/REKAPITULASI EVALUASI PROSES LAYANAN BIMBINGAN KLASIKAL.pdf" },
-        { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 1", path: "PPL 1/SIKLUS 1/REKAPITULASI EVALUASI HASIL LAYANAN BIMBINGAN KLASIKAL.pdf" },
-        { label: "Rekapitulasi Evaluasi Proses \u2014 Siklus 2", path: "PPL 1/SIKLUS 2/Rekap Evaluasi proses.pdf" },
-        { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 2", path: "PPL 1/SIKLUS 2/Rekap Evaluasi Hasil.pdf" },
-        { label: "Rekapitulasi Evaluasi Proses \u2014 Siklus 3", path: "PPL 1/SIKLUS 3/Rekap Evaluasi proses.pdf" },
-        { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 3", path: "PPL 1/SIKLUS 3/Rekap Evaluasi Hasil.pdf" }
+        { label: "LKPD Siklus 1", path: "SIKLUS 1/LKPD_SIKLUS1_SUPRIADI.pdf" },
+        { label: "LKPD dan Lembar Refleksi \u2014 Siklus 2", path: "SIKLUS 2/LKPD dan Lembar Refleksi.pdf" },
+        { label: "Lembar Kerja Peserta Didik \u2014 Siklus 3", path: "SIKLUS 3/LEMBAR KERJA PESERTA DIDIK.pdf" },
+        { label: "Rekapitulasi Evaluasi Proses \u2014 Siklus 1", path: "SIKLUS 1/REKAPITULASI EVALUASI PROSES LAYANAN BIMBINGAN KLASIKAL.pdf" },
+        { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 1", path: "SIKLUS 1/REKAPITULASI EVALUASI HASIL LAYANAN BIMBINGAN KLASIKAL.pdf" },
+        { label: "Rekapitulasi Evaluasi Proses \u2014 Siklus 2", path: "SIKLUS 2/Rekap Evaluasi proses.pdf" },
+        { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 2", path: "SIKLUS 2/Rekap Evaluasi Hasil.pdf" },
+        { label: "Rekapitulasi Evaluasi Proses \u2014 Siklus 3", path: "SIKLUS 3/Rekap Evaluasi proses.pdf" },
+        { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 3", path: "SIKLUS 3/Rekap Evaluasi Hasil.pdf" }
       ]
     }
   };
@@ -308,7 +308,7 @@
       badge: "PPL 1",
       jenis: "Bimbingan Klasikal",
       tema: "Aku dan Peranku di Sekolah",
-      info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas X", "Waktu": "1 \u00d7 45 menit" },
+      info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas VII", "Waktu": "2 \u00d7 40 menit" },
       tujuan: [
         "Peserta didik memahami peran dan tanggung jawabnya di lingkungan sekolah.",
         "Peserta didik mampu mengidentifikasi minat dan potensi dirinya.",
@@ -326,18 +326,18 @@
       evaluasi: "Lembar evaluasi proses dan hasil (penilaian pemahaman peran peserta didik).",
       tindakLanjut: "Pendampingan lanjutan pada peserta didik yang membutuhkan penguatan peran di sekolah.",
       dokumen: [
-        { label: "RPLBK \u2014 Aku dan Peranku di Sekolah", path: "PPL 1/SIKLUS 1/RPLBK AKU DAN PERANKU DI SEKOLAH.pdf" },
-        { label: "LKPD Siklus 1", path: "PPL 1/SIKLUS 1/LKPD_SIKLUS1_SUPRIADI.pdf" },
-        { label: "PPT Siklus 1", path: "PPL 1/SIKLUS 1/PPT_SIKLUS1_SUPRIADI.pptx" },
-        { label: "Rekapitulasi Evaluasi Proses", path: "PPL 1/SIKLUS 1/REKAPITULASI EVALUASI PROSES LAYANAN BIMBINGAN KLASIKAL.pdf" },
-        { label: "Rekapitulasi Evaluasi Hasil", path: "PPL 1/SIKLUS 1/REKAPITULASI EVALUASI HASIL LAYANAN BIMBINGAN KLASIKAL.pdf" }
+        { label: "RPLBK \u2014 Aku dan Peranku di Sekolah", path: "SIKLUS 1/RPLBK AKU DAN PERANKU DI SEKOLAH.pdf" },
+        { label: "LKPD Siklus 1", path: "SIKLUS 1/LKPD_SIKLUS1_SUPRIADI.pdf" },
+        { label: "PPT Siklus 1", path: "SIKLUS 1/PPT_SIKLUS1_SUPRIADI.pptx" },
+        { label: "Rekapitulasi Evaluasi Proses", path: "SIKLUS 1/REKAPITULASI EVALUASI PROSES LAYANAN BIMBINGAN KLASIKAL.pdf" },
+        { label: "Rekapitulasi Evaluasi Hasil", path: "SIKLUS 1/REKAPITULASI EVALUASI HASIL LAYANAN BIMBINGAN KLASIKAL.pdf" }
       ]
     },
     "ppl1-s2": {
       badge: "PPL 1",
       jenis: "Bimbingan Kelompok",
       tema: "Aku Peduli, Aku Berperan",
-      info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pemahaman &amp; Pengembangan", "Sasaran": "Kelompok 8\u201310 peserta didik", "Waktu": "1 \u00d7 45 menit" },
+      info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pemahaman &amp; Pengembangan", "Sasaran": "Peserta didik Kelas VII", "Waktu": "2 \u00d7 40 menit" },
       tujuan: [
         "Peserta didik mengembangkan sikap peduli terhadap teman sebaya.",
         "Peserta didik berlatih berperan aktif dalam dinamika kelompok.",
@@ -355,18 +355,18 @@
       evaluasi: "Observasi keaktifan anggota dan lembar penilaian kerja kelompok.",
       tindakLanjut: "Tindak lanjut pada anggota yang belum aktif melalui bimbingan individual.",
       dokumen: [
-        { label: "RPL BK Kelompok \u2014 Tanggung Jawab Sosial", path: "PPL 1/SIKLUS 2/RPL_BK_KLP_Tanggung_Jawab_Sosial.pdf" },
-        { label: "LKPD dan Lembar Refleksi", path: "PPL 1/SIKLUS 2/LKPD dan Lembar Refleksi.pdf" },
-        { label: "PPT \u2014 Aku Peduli, Aku Berperan", path: "PPL 1/SIKLUS 2/AKU PEDULI, AKU BERPERAN.pptx" },
-        { label: "Rekapitulasi Evaluasi Proses", path: "PPL 1/SIKLUS 2/Rekap Evaluasi proses.pdf" },
-        { label: "Rekapitulasi Evaluasi Hasil", path: "PPL 1/SIKLUS 2/Rekap Evaluasi Hasil.pdf" }
+        { label: "RPL BK Kelompok \u2014 Tanggung Jawab Sosial", path: "SIKLUS 2/RPL_BK_KLP_Tanggung_Jawab_Sosial.pdf" },
+        { label: "LKPD dan Lembar Refleksi", path: "SIKLUS 2/LKPD dan Lembar Refleksi.pdf" },
+        { label: "PPT \u2014 Aku Peduli, Aku Berperan", path: "SIKLUS 2/AKU PEDULI, AKU BERPERAN.pptx" },
+        { label: "Rekapitulasi Evaluasi Proses", path: "SIKLUS 2/Rekap Evaluasi proses.pdf" },
+        { label: "Rekapitulasi Evaluasi Hasil", path: "SIKLUS 2/Rekap Evaluasi Hasil.pdf" }
       ]
     },
     "ppl1-s3": {
       badge: "PPL 1",
       jenis: "Bimbingan Klasikal",
       tema: "Seni Berteman Positif",
-      info: { "Bidang": "Sosial Emosional", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas X", "Waktu": "1 \u00d7 45 menit" },
+      info: { "Bidang": "Sosial Emosional", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas VII", "Waktu": "2 \u00d7 40 menit" },
       tujuan: [
         "Peserta didik memahami pentingnya hubungan pertemanan yang sehat.",
         "Peserta didik mampu membedakan pertemanan positif dan negatif.",
@@ -384,18 +384,18 @@
       evaluasi: "Lembar refleksi dan penilaian pemahaman konsep pertemanan positif.",
       tindakLanjut: "Pemantauan relasi sosial peserta didik dan konsultasi lanjutan bila diperlukan.",
       dokumen: [
-        { label: "RPL Klasikal \u2014 Seni Berteman", path: "PPL 1/SIKLUS 3/RPL_Klasikal_Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pdf" },
-        { label: "Lembar Kerja Peserta Didik", path: "PPL 1/SIKLUS 3/LEMBAR KERJA PESERTA DIDIK.pdf" },
-        { label: "PPT \u2014 Seni Berteman", path: "PPL 1/SIKLUS 3/Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pptx" },
-        { label: "Rekapitulasi Evaluasi Proses", path: "PPL 1/SIKLUS 3/Rekap Evaluasi proses.pdf" },
-        { label: "Rekapitulasi Evaluasi Hasil", path: "PPL 1/SIKLUS 3/Rekap Evaluasi Hasil.pdf" }
+        { label: "RPL Klasikal \u2014 Seni Berteman", path: "SIKLUS 3/RPL_Klasikal_Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pdf" },
+        { label: "Lembar Kerja Peserta Didik", path: "SIKLUS 3/LEMBAR KERJA PESERTA DIDIK.pdf" },
+        { label: "PPT \u2014 Seni Berteman", path: "SIKLUS 3/Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pptx" },
+        { label: "Rekapitulasi Evaluasi Proses", path: "SIKLUS 3/Rekap Evaluasi proses.pdf" },
+        { label: "Rekapitulasi Evaluasi Hasil", path: "SIKLUS 3/Rekap Evaluasi Hasil.pdf" }
       ]
     },
     "ppl2-s1": {
       badge: "PPL 2",
       jenis: "Bimbingan Klasikal",
       tema: "Aku dan Peranku di Sekolah",
-      info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas X", "Waktu": "1 \u00d7 45 menit" },
+      info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas X", "Waktu": "1 \u00d7 40 menit" },
       tujuan: [
         "Peserta didik memaknai peran aktif dalam kehidupan sekolah.",
         "Peserta didik mengembangkan tujuan belajar dan karier jangka pendek.",
@@ -425,7 +425,7 @@
       badge: "PPL 2",
       jenis: "Bimbingan Kelompok",
       tema: "Mengenal Potensi Diri",
-      info: { "Bidang": "Pribadi", "Fungsi": "Pemahaman &amp; Pengembangan", "Sasaran": "Kelompok 8\u201310 peserta didik", "Waktu": "1 \u00d7 45 menit" },
+      info: { "Bidang": "Pribadi", "Fungsi": "Pemahaman &amp; Pengembangan", "Sasaran": "Kelompok 8\u201310 peserta didik", "Waktu": "1 \u00d7 40 menit" },
       tujuan: [
         "Peserta didik mengenali kekuatan dan potensi dirinya.",
         "Peserta didik mengembangkan kepercayaan diri.",
