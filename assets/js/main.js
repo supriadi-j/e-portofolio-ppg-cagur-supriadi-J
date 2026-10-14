@@ -47,7 +47,7 @@
     if (e.key === "Escape") closeSidebar();
   });
 
-  /* ---------- Galeri (dibangun dari foto asli PPL 1) ---------- */
+  /* ---------- Galeri (dibangun dari foto asli PPL 1 dan PPL 2) ---------- */
   var galleryData = [
     { src: "SIKLUS 1/siklus1.1.jpeg", title: "Bimbingan Klasikal", cap: "PPL 1 \u00B7 Siklus 1 \u2014 \u201CAku dan Peranku di Sekolah\u201D" },
     { src: "SIKLUS 1/siklus1.2.jpeg", title: "Bimbingan Klasikal", cap: "PPL 1 \u00B7 Siklus 1 \u2014 Foto 2" },
@@ -61,6 +61,10 @@
     { src: "SIKLUS 3/siklus3.2.png", title: "Bimbingan Klasikal", cap: "PPL 1 \u00B7 Siklus 3 \u2014 Foto 2" },
     { src: "SIKLUS 3/siklus3.3.png", title: "Bimbingan Klasikal", cap: "PPL 1 \u00B7 Siklus 3 \u2014 Foto 3" },
     { src: "SIKLUS 3/siklus3.4.png", title: "Bimbingan Klasikal", cap: "PPL 1 \u00B7 Siklus 3 \u2014 Foto 4" }
+    { src: "PPL 2/Bimbingan Klasikal/siklus 1.1.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 \u201CManajemen Waktu & Anti-Kecemasan Ujian\u201D" },
+    { src: "PPL 2/Bimbingan Klasikal/siklus 1.2.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 Foto 2" },
+    { src: "PPL 2/Bimbingan Klasikal/siklus 1.3.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 Foto 3" },
+    { src: "PPL 2/Bimbingan Klasikal/siklus 1.4.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 Foto 4" }
   ];
   var galleryPalette = [
     ["#0ea5e9", "#155e75"], ["#8b5cf6", "#6d28d9"], ["#14b8a6", "#0f766e"], ["#f59e0b", "#b45309"]
