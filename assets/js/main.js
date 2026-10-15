@@ -398,30 +398,30 @@
     "ppl2-s1": {
       badge: "PPL 2",
       jenis: "Bimbingan Klasikal",
-      tema: "Strategi Lolos dari "Ruang Malas": Manajemen Waktu & Anti-Kecemasan Ujian",
-      info: { "Bidang": "Belajar", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas IX", "Waktu": "1 \u00d7 40 menit" },
+      tema: "Strategi Lolos dari \u201CRuang Malas\u201D: Manajemen Waktu & Anti-Kecemasan Ujian",
+      info: { "Bidang": "Belajar", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik Kelas VIII / Fase D", "Waktu": "1 \u00d7 40 menit" },
       tujuan: [
-        "Peserta didik mampu menilai kebenaran antara mitos dan fakta terkait kebiasaan belajar SKS.",
-        "Peserta didik mampu mengurutkan prioritas kegiatan harian untuk mencegah penundaan.",
-        "Peserta didik mampu menentukan cara yang tepat untuk menetralisir kecemasan saat menghadapi ujian."
+        "Peserta didik mampu menilai kebenaran antara mitos dan fakta terkait kebiasaan belajar SKS (C4).",
+        "Peserta didik mampu mengurutkan prioritas kegiatan harian untuk mencegah penundaan (C4).",
+        "Peserta didik mampu menentukan cara yang tepat untuk menetralisir kecemasan saat menghadapi ujian (P2)."
       ],
-      asesmen: "AKPD dan kuisioner keaktifan peserta didik di sekolah.",
-      materi: "Strategi Lolos dari "Ruang Malas": Manajemen Waktu & Anti-Kecemasan Ujian.",
-      metode: "Simulasi Game, Diskusi Kelompok, dan Refleksi.",
-      media: "Aplikasi Virtual Escape Room (HTML Web), Salindia (PowerPoint), QR Code.",
+      asesmen: "Asesmen kebutuhan peserta didik (AKPD) sebagai dasar penyusunan layanan.",
+      materi: "Mitos vs Fakta Belajar (SKS), Skala Prioritas (Labirin Waktu), dan Mengelola Kecemasan (Kapsul Ketenangan).",
+      metode: "Gamification (Bermain Peran Agen Rahasia) / Experiential Learning; simulasi game, diskusi kelompok, dan refleksi.",
+      media: "Aplikasi Virtual Escape Room (HTML Web), salindia (PowerPoint), dan QR Code.",
       tahapan: [
-        { nama: "Pendahuluan", isi: "Ice breaking, review materi sebelumnya, dan kontrak layanan." },
-        { nama: "Tahap Inti", isi: "Eksplorasi potensi, penyusunan tujuan belajar, dan presentasi rencana kontribusi." },
-        { nama: "Penutup", isi: "Umpan balik, refleksi diri, dan evaluasi hasil layanan." }
+        { nama: "Pembuka", isi: "Salam, doa, presensi, ice breaking & rapport, penyampaian tujuan, dan pembagian kelompok kecil (3\u20134 orang)." },
+        { nama: "Inti", isi: "Skenario \u201CAgen Rahasia terjebak di Ruang Malas\u201D; memindai QR Code dan mengakses Virtual Escape Room; diskusi memecahkan sandi di Pos 1\u20133 (Mitos SKS, Prioritas Waktu, Penawar Cemas); lalu sesi refleksi." },
+        { nama: "Penutup", isi: "Menyimpulkan poin penting, mengisi LKPD digital dan instrumen evaluasi, motivasi, doa, dan salam." }
       ],
-      evaluasi: "Lembar penilaian rencana aksi peserta didik.",
-      tindakLanjut: "Monitoring pelaksanaan rencana aksi peserta didik secara berkala.",
+      evaluasi: "Proses: observasi keterlibatan, antusiasme, dan kerja sama selama Virtual Escape Room. Hasil: penilaian diri (Understanding, Comfortable, Action).",
+      tindakLanjut: "Peserta didik dengan kecemasan ekstrem atau belum mampu mengurutkan prioritas waktu direkomendasikan mengikuti Bimbingan Kelompok lanjutan.",
       dokumen: [
-        { label: "RPLBK PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/RPLBK Manajemen Waktu & Anti-Kecemasan Ujian" },
-        { label: "LKPD PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/LKPD PPL 2 Bimbingan Klasikal" },
-        { label: "Media PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/PPT_Ruang_Malas_Manajemen_Waktu_Anti_Kecemasan" },
-        { label: "Rekap Proses PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Rekap_Evaluasi_Proses" },
-        { label: "Rekap Hasil PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Rekap_Evaluasi_Hasil" },
+        { label: "RPLBK PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/RPLBK Manajemen Waktu & Anti-Kecemasan Ujian.pdf" },
+        { label: "LKPD PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/LKPD PPL 2 Bimbingan Klasikal.pdf" },
+        { label: "Media PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/PPT_Ruang_Malas_Manajemen_Waktu_Anti_Kecemasan.pdf" },
+        { label: "Rekap Proses PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Rekap_Evaluasi_Proses.pdf" },
+        { label: "Rekap Hasil PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Rekap_Evaluasi_Hasil.pdf" },
         { label: "Lembar Penilaian Guru Pamong PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Lembar Penilaian Guru Pamong.html" }
       ]
     },
