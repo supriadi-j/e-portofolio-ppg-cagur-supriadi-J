@@ -398,17 +398,17 @@
     "ppl2-s1": {
       badge: "PPL 2",
       jenis: "Bimbingan Klasikal",
-      tema: "Aku dan Peranku di Sekolah",
-      info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas X", "Waktu": "1 \u00d7 40 menit" },
+      tema: "Strategi Lolos dari "Ruang Malas": Manajemen Waktu & Anti-Kecemasan Ujian",
+      info: { "Bidang": "Belajar", "Fungsi": "Pemahaman", "Sasaran": "Peserta didik kelas IX", "Waktu": "1 \u00d7 40 menit" },
       tujuan: [
-        "Peserta didik memaknai peran aktif dalam kehidupan sekolah.",
-        "Peserta didik mengembangkan tujuan belajar dan karier jangka pendek.",
-        "Peserta didik menyusun rencana kontribusi nyata di sekolah."
+        "Peserta didik mampu menilai kebenaran antara mitos dan fakta terkait kebiasaan belajar SKS.",
+        "Peserta didik mampu mengurutkan prioritas kegiatan harian untuk mencegah penundaan.",
+        "Peserta didik mampu menentukan cara yang tepat untuk menetralisir kecemasan saat menghadapi ujian."
       ],
       asesmen: "AKPD dan kuisioner keaktifan peserta didik di sekolah.",
-      materi: "Eksplorasi peran, penetapan tujuan belajar, dan rencana kontribusi positif.",
-      metode: "Ceramah interaktif, diskusi, dan workhsop rencana aksi.",
-      media: "Media digital interaktif dan lembar rencana aksi.",
+      materi: "Strategi Lolos dari "Ruang Malas": Manajemen Waktu & Anti-Kecemasan Ujian.",
+      metode: "Simulasi Game, Diskusi Kelompok, dan Refleksi.",
+      media: "Aplikasi Virtual Escape Room (HTML Web), Salindia (PowerPoint), QR Code.",
       tahapan: [
         { nama: "Pendahuluan", isi: "Ice breaking, review materi sebelumnya, dan kontrak layanan." },
         { nama: "Tahap Inti", isi: "Eksplorasi potensi, penyusunan tujuan belajar, dan presentasi rencana kontribusi." },
@@ -417,11 +417,11 @@
       evaluasi: "Lembar penilaian rencana aksi peserta didik.",
       tindakLanjut: "Monitoring pelaksanaan rencana aksi peserta didik secara berkala.",
       dokumen: [
-        { label: "RPLBK PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Siklus 1/RPLBK PPL 2 - Siklus 1.html" },
-        { label: "LKPD PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Siklus 1/LKPD PPL 2 - Siklus 1.html" },
-        { label: "Media PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Siklus 1/Media PPL 2 - Siklus 1.html" },
-        { label: "Rekap Proses PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Siklus 1/Rekap Proses PPL 2 - Siklus 1.html" },
-        { label: "Rekap Hasil PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Siklus 1/Rekap Hasil PPL 2 - Siklus 1.html" },
+        { label: "RPLBK PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/RPLBK Manajemen Waktu & Anti-Kecemasan Ujian" },
+        { label: "LKPD PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/LKPD PPL 2 Bimbingan Klasikal" },
+        { label: "Media PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/PPT_Ruang_Malas_Manajemen_Waktu_Anti_Kecemasan" },
+        { label: "Rekap Proses PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Rekap_Evaluasi_Proses" },
+        { label: "Rekap Hasil PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Rekap_Evaluasi_Hasil" },
         { label: "Lembar Penilaian Guru Pamong PPL 2 — Siklus 1", path: "PPL 2/Bimbingan Klasikal/Lembar Penilaian Guru Pamong.html" }
       ]
     },
