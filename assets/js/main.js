@@ -68,7 +68,10 @@
     { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.1.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Kegiatan Layanan Kelompok" },
     { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.2.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Foto 2" },
     { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.3.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Foto 3" },
-    { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.4.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Foto 4" }
+    { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.4.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Foto 4" },
+    { src: "inovasi 1.jpeg", title: "Karya Inovasi", cap: "Dokumentasi Karya Inovasi \u2014 Foto 1" },
+    { src: "inovasi 2.jpeg", title: "Karya Inovasi", cap: "Dokumentasi Karya Inovasi \u2014 Foto 2" },
+    { src: "inovasi 3.jpeg", title: "Karya Inovasi", cap: "Dokumentasi Karya Inovasi \u2014 Foto 3" }
   ];
   var galleryPalette = [
     ["#0ea5e9", "#155e75"], ["#8b5cf6", "#6d28d9"], ["#14b8a6", "#0f766e"], ["#f59e0b", "#b45309"]
