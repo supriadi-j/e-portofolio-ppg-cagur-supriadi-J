@@ -64,7 +64,11 @@
     { src: "PPL 2/Bimbingan Klasikal/siklus 1.1.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 Kegiatan Layanan Klasikal" },
     { src: "PPL 2/Bimbingan Klasikal/siklus 1.2.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 Foto 2" },
     { src: "PPL 2/Bimbingan Klasikal/siklus 1.3.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 Foto 3" },
-    { src: "PPL 2/Bimbingan Klasikal/siklus 1.4.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 Foto 4" }
+    { src: "PPL 2/Bimbingan Klasikal/siklus 1.4.jpeg", title: "Bimbingan Klasikal", cap: "PPL 2 \u00B7 Siklus 1 \u2014 Foto 4" },
+    { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.1.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Kegiatan Layanan Kelompok" },
+    { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.2.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Foto 2" },
+    { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.3.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Foto 3" },
+    { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.4.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Foto 4" }
   ];
   var galleryPalette = [
     ["#0ea5e9", "#155e75"], ["#8b5cf6", "#6d28d9"], ["#14b8a6", "#0f766e"], ["#f59e0b", "#b45309"]
@@ -214,7 +218,9 @@
       files: [
         { label: "RPLBK \u2014 Aku dan Peranku di Sekolah (Siklus 1)", path: "SIKLUS 1/RPLBK AKU DAN PERANKU DI SEKOLAH.pdf" },
         { label: "RPL BK Kelompok \u2014 Tanggung Jawab Sosial (Siklus 2)", path: "SIKLUS 2/RPL_BK_KLP_Tanggung_Jawab_Sosial.pdf" },
-        { label: "RPL Klasikal \u2014 Seni Berteman (Siklus 3)", path: "SIKLUS 3/RPL_Klasikal_Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pdf" }
+        { label: "RPL Klasikal \u2014 Seni Berteman (Siklus 3)", path: "SIKLUS 3/RPL_Klasikal_Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pdf" },
+        { label: "RPLBK \u2014 Manajemen Waktu & Anti-Kecemasan (PPL 2 \u00B7 Siklus 1)", path: "PPL 2/Bimbingan Klasikal/Siklus 1/RPLBK Manajemen Waktu & Anti-Kecemasan Ujian.pdf" },
+        { label: "RPL Bimbingan Kelompok \u2014 Konflik & Senioritas (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/RPL Bimbingan Kelompok.pdf" }
       ]
     },
     laporan: {
@@ -232,7 +238,9 @@
       files: [
         { label: "PPT \u2014 Aku dan Peranku di Sekolah (Siklus 1)", path: "SIKLUS 1/PPT_SIKLUS1_SUPRIADI.pptx" },
         { label: "PPT \u2014 Aku Peduli, Aku Berperan (Siklus 2)", path: "SIKLUS 2/AKU PEDULI, AKU BERPERAN.pptx" },
-        { label: "PPT \u2014 Seni Berteman (Siklus 3)", path: "SIKLUS 3/Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pptx" }
+        { label: "PPT \u2014 Seni Berteman (Siklus 3)", path: "SIKLUS 3/Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pptx" },
+        { label: "PPT \u2014 Ruang Malas: Manajemen Waktu & Anti-Kecemasan (PPL 2 \u00B7 Siklus 1)", path: "PPL 2/Bimbingan Klasikal/Siklus 1/PPT_Ruang_Malas_Manajemen_Waktu_Anti_Kecemasan.pdf" },
+        { label: "PPT \u2014 Bimbingan Kelompok PIK-R (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/PPT_Bimbingan_Kelompok_PIK-R.pdf" }
       ]
     },
     asesmen: {
@@ -247,7 +255,13 @@
         { label: "Rekapitulasi Evaluasi Proses \u2014 Siklus 2", path: "SIKLUS 2/Rekap Evaluasi proses.pdf" },
         { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 2", path: "SIKLUS 2/Rekap Evaluasi Hasil.pdf" },
         { label: "Rekapitulasi Evaluasi Proses \u2014 Siklus 3", path: "SIKLUS 3/Rekap Evaluasi proses.pdf" },
-        { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 3", path: "SIKLUS 3/Rekap Evaluasi Hasil.pdf" }
+        { label: "Rekapitulasi Evaluasi Hasil \u2014 Siklus 3", path: "SIKLUS 3/Rekap Evaluasi Hasil.pdf" },
+        { label: "LKPD \u2014 Bimbingan Klasikal (PPL 2 \u00B7 Siklus 1)", path: "PPL 2/Bimbingan Klasikal/Siklus 1/LKPD PPL 2 Bimbingan Klasikal.pdf" },
+        { label: "LKPD \u2014 Bimbingan Kelompok (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/LKPD Bimbingan Kelompok.pdf" },
+        { label: "Rekapitulasi Evaluasi Proses \u2014 Bimbingan Klasikal (PPL 2 \u00B7 Siklus 1)", path: "PPL 2/Bimbingan Klasikal/Siklus 1/Rekap_Evaluasi_Proses.pdf" },
+        { label: "Rekapitulasi Evaluasi Hasil \u2014 Bimbingan Klasikal (PPL 2 \u00B7 Siklus 1)", path: "PPL 2/Bimbingan Klasikal/Siklus 1/Rekap_Evaluasi_Hasil.pdf" },
+        { label: "Rekapitulasi Evaluasi Proses \u2014 Bimbingan Kelompok (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekapitulasi_Evaluasi_Proses.pdf" },
+        { label: "Rekapitulasi Evaluasi Hasil \u2014 Bimbingan Kelompok (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekapitulasi_Evaluasi_Hasil_Bimbingan_Kelompok.pdf" }
       ]
     }
   };
@@ -428,30 +442,31 @@
     "ppl2-s2": {
       badge: "PPL 2",
       jenis: "Bimbingan Kelompok",
-      tema: "Mengenal Potensi Diri",
-      info: { "Bidang": "Pribadi", "Fungsi": "Pemahaman &amp; Pengembangan", "Sasaran": "Kelompok 8\u201310 peserta didik", "Waktu": "1 \u00d7 40 menit" },
+      tema: "Manajemen Konflik Pertemanan & Mengatasi Isu Senioritas di Sekolah",
+      info: { "Bidang": "Sosial dan Pribadi", "Fungsi": "Pemahaman &amp; Pengembangan", "Sasaran": "Anggota PIK-R (Kelas VII\u2013IX)", "Waktu": "2 \u00d7 40 menit" },
       tujuan: [
-        "Peserta didik mengenali kekuatan dan potensi dirinya.",
-        "Peserta didik mengembangkan kepercayaan diri.",
-        "Peserta didik mampu merencanakan pengembangan potensi."
+        "Peserta didik mampu mengaitkan konsep Cinta Diri dan Sesama untuk meredam ego, menumbuhkan empati, serta menghindari perundungan/konflik antartingkatan kelas.",
+        "Peserta didik mampu menerapkan Cinta Ilmu dalam menganalisis akar masalah konflik secara rasional, kritis, dan solutif.",
+        "Peserta didik mampu mengimplementasikan nilai Cinta Allah & Rasul-Nya serta Cinta Tanah Air dalam membangun ukhuwah, kedamaian, dan iklim madrasah yang ramah anak."
       ],
-      asesmen: "Instrumen asesmen potensi diri (inventori minat bakat).",
-      materi: "Potensi diri, kekuatan personal, dan strategi pengembangan diri.",
-      metode: "Self-assessment, diskusi kelompok, dan umpan balik teman.",
-      media: "Kartu potensi dan lembar profil diri.",
+      asesmen: "Pengamatan empiris, catatan kejadian/kasus layanan BK, dan dinamika interaksi sosial di madrasah.",
+      materi: "Manajemen konflik pertemanan & isu senioritas berbasis nilai Panca Cinta (KBC).",
+      metode: "Bimbingan Kelompok \u2014 Discussion Group & Role Playing berbasis nilai KBC.",
+      media: "Lembar studi kasus konflik, modul Panca Cinta KBC, LCD proyektor, kertas pleno, dan spidol.",
       tahapan: [
-        { nama: "Pendahuluan", isi: "Perkenalan anggota baru, kontrak kelompok, dan pencairan suasana." },
-        { nama: "Tahap Inti", isi: "Self-assessment potensi, saling memberi umpan balik, dan merumuskan langkah pengembangan." },
-        { nama: "Penutup", isi: "Refleksi hasil, komitmen pengembangan diri, dan evaluasi proses kelompok." }
+        { nama: "Tahap Awal", isi: "Salam & ice breaking kebersamaan, penyampaian topik, penjelasan langkah, dan pembagian kelompok kecil heterogen (lintas kelas VII\u2013IX anggota PIK-R)." },
+        { nama: "Tahap Peralihan", isi: "Storming: menanyakan kesiapan & instruksi; Norming: menyepakati aturan dan komitmen bersama berbasis Cinta Sesama." },
+        { nama: "Tahap Inti", isi: "Diskusi studi kasus konflik & senioritas, analisis akar masalah dengan Panca Cinta, role play konselor sebaya, lalu refleksi What Happened \u2013 So What \u2013 Now What." },
+        { nama: "Tahap Terminasi", isi: "Penguatan, rencana tindak lanjut (aksi kampanye persahabatan positif), doa, dan salam." }
       ],
-      evaluasi: "Lembar komitmen pengembangan potensi.",
-      tindakLanjut: "Follow-up perkembangan potensi melalui layanan konseling individual.",
+      evaluasi: "Proses: observasi antusiasme, dinamika kelompok, dan penerapan nilai Panca Cinta. Hasil: lembar refleksi diri/angket dan pengamatan perubahan sikap.",
+      tindakLanjut: "Aksi kampanye persahabatan positif antarangkatan dan pendampingan lanjutan bagi anggota PIK-R.",
       dokumen: [
-        { label: "RPLBK PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/RPLBK PPL 2 - Siklus 2.html" },
-        { label: "LKPD PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/LKPD PPL 2 - Siklus 2.html" },
-        { label: "Media PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Media PPL 2 - Siklus 2.html" },
-        { label: "Rekap Proses PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekap Proses PPL 2 - Siklus 2.html" },
-        { label: "Rekap Hasil PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekap Hasil PPL 2 - Siklus 2.html" },
+        { label: "RPL Bimbingan Kelompok — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/RPL Bimbingan Kelompok.pdf" },
+        { label: "LKPD Bimbingan Kelompok — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/LKPD Bimbingan Kelompok.pdf" },
+        { label: "Media PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/PPT_Bimbingan_Kelompok_PIK-R.pdf" },
+        { label: "Rekap Proses PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekapitulasi_Evaluasi_Proses.pdf" },
+        { label: "Rekap Hasil PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekapitulasi_Evaluasi_Hasil_Bimbingan_Kelompok.pdf" },
         { label: "Lembar Penilaian Guru Pamong PPL 2 — Siklus 2", path: "PPL 2/Bimbingan Kelompok/Lembar Penilaian Guru Pamong.html" }
       ]
     },
