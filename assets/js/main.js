@@ -476,7 +476,7 @@
     "ppl2-s3": {
       badge: "PPL 2",
       jenis: "Konseling Kelompok",
-      tema: "Menyelesaikan Masalah Bersama",
+      tema: "Konflik Interpersonal dan Senioritas",
       info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pengentasan Masalah", "Sasaran": "Kelompok konseling 6\u20138 konseli", "Waktu": "2 \u00d7 40 menit" },
       tujuan: [
         "Konseli mampu mengungkapkan permasalahan yang dialaminya.",
