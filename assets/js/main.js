@@ -504,7 +504,7 @@
         { label: "Lembar Penilaian Guru Pamong PPL 2 — Siklus 3", path: "PPL 2/Konseling Kelompok/Lembar Penilaian Guru Pamong.html" }
       ]
     },
-        "ppl2-s4": {
+    "ppl2-s4": {
       badge: "PPL 2",
       jenis: "Konseling Individu",
       tema: "Ventilasi Emosi & Penguatan Dukungan Sosial",
