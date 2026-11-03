@@ -283,14 +283,6 @@
   var docsSub = doc.getElementById("docs-modal-sub");
 
   function openDocs(cat) {
-    if (cat === "dokumentasi") {
-      var gal = doc.getElementById("galeri");
-      if (gal) gal.scrollIntoView({ behavior: "smooth" });
-      return;
-    }
-    if (cat === "jurnal") {
-      showToast("Jurnal Refleksi sedang disiapkan \u2014 akan segera hadir.");
-      return;
     }
     var d = DOCS[cat];
     if (!d || !docsBody) return;
