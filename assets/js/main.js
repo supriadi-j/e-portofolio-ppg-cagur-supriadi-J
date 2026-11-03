@@ -507,35 +507,28 @@
     "ppl2-s4": {
       badge: "PPL 2",
       jenis: "Konseling Individu",
-      tema: "Menyelesaikan Masalah Individu",
-      info: { "Bidang": "Pribadi", "Fungsi": "Pengentasan Masalah", "Sasaran": "Konseli individual", "Waktu": "1 \u00d7 45 menit" },
+      tema: "Ventilasi Emosi & Penguatan Dukungan Sosial",
+      info: { "Bidang": "Pribadi dan Sosial", "Fungsi": "Pengentasan Masalah", "Sasaran": "Konseli individual (identitas disamarkan)", "Waktu": "1 \u00d7 40 menit (Sesi 3)" },
       tujuan: [
-        "Konseli mampu mengklarifikasi permasalahan yang dihadapi.",
-        "Konseli mengembangkan alternatif penyelesaian yang tepat.",
-        "Konseli mengambil keputusan dan melakukan perubahan perilaku."
+        "Konseli mampu melakukan pengungkapan perasaan (ventilasi emosi) atas beban yang dipendamnya.",
+        "Konseli mampu mengidentifikasi figur lekat pendukung yang dapat diandalkan saat merasa penat atau sepi.",
+        "Konseli merasa dihargai dan diterima tanpa paksaan mengisi instrumen tertulis yang kaku."
       ],
-      asesmen: "Assessment awal, pengungkapan masalah, dan wawancara konseling.",
-      materi: "Identifikasi masalah, eksplorasi alternatif, dan rencana aksi perubahan.",
-      metode: "Konseling individual dengan pendekatan CBT/konseling berpusat klien sesuai kebutuhan.",
-      media: "Format catatan proses konseling (BKPI/record).",
+      asesmen: "Asesmen awal dan eksplorasi lanjutan sesi sebelumnya (Sesi 2) sebagai dasar penetapan fokus.",
+      materi: "Pengungkapan perasaan (ventilasi emosi), pengenalan rasa pasrah, dan eksplorasi dukungan sosial.",
+      metode: "Person-Centered Therapy (PCT) dengan Strength-Based Approach; teknik Active Listening dan Empathy Reflection.",
+      media: "Ruang konseling privat (Ruang Bahagia); tanpa lembar kerja tertulis/LKPD (dialog verbal empatik).",
       tahapan: [
-        { nama: "Awal", isi: "Rapport, menciptakan safe space, kontrak konseling, dan identifikasi masalah." },
-        { nama: "Tengah", isi: "Eksplorasi masalah, pemahaman baru konseli, dan penyusunan alternatif solusi." },
-        { nama: "Akhir", isi: "Pengambilan keputusan, perencanaan tindakan, dan terminasi dengan follow-up." }
+        { nama: "Tahap Awal (Structuring) \u00b1 5 menit", isi: "Menyambut konseli dengan hangat, membangun rapport, dan menegaskan kembali asas kerahasiaan." },
+        { nama: "Tahap Inti (Eksplorasi & Ventilasi) \u00b1 25 menit", isi: "Active Listening dan Empathy Reflection untuk memvalidasi perasaan; eksplorasi perubahan suasana rumah dan figur dukungan; diskusi ringan motivasi hidup sehat." },
+        { nama: "Tahap Pengakhiran (Terminasi) \u00b1 10 menit", isi: "Merangkum hasil secara kolaboratif, memberi penguatan positif tanpa tugas tertulis, dan menyepakati pertemuan fleksibel berikutnya." }
       ],
-      evaluasi: "Evaluasi proses, perubahan perilaku konseli, dan kesepakatan tindak lanjut.",
-      tindakLanjut: "Pemantauan berkala dan konseling lanjutan sesuai kebutuhan konseli.",
+      evaluasi: "Proses: observasi ekspresi, penurunan sikap defensif, dan keterbukaan konseli (Lampiran 2). Hasil: skala kualitatif BMB3 sederhana dan komitmen komunikasi (Lampiran 3).",
+      tindakLanjut: "Pemantauan informal dukungan keluarga dan penjadwalan sesi konsultasi fleksibel berikutnya bila diperlukan.",
       dokumen: [
-        { label: "RPLBK PPL 2 \u2014 Siklus 4", path: "PPL 2/Konseling Individu/Siklus 4/RPLBK PPL 2 - Siklus 4.html" },
-        { label: "LKPD PPL 2 \u2014 Siklus 4", path: "PPL 2/Konseling Individu/Siklus 4/LKPD PPL 2 - Siklus 4.html" },
-        { label: "Media PPL 2 \u2014 Siklus 4", path: "PPL 2/Konseling Individu/Siklus 4/Media PPL 2 - Siklus 4.html" },
-        { label: "Rekap Proses PPL 2 \u2014 Siklus 4", path: "PPL 2/Konseling Individu/Siklus 4/Rekap Proses PPL 2 - Siklus 4.html" },
-        { label: "Rekap Hasil PPL 2 \u2014 Siklus 4", path: "PPL 2/Konseling Individu/Siklus 4/Rekap Hasil PPL 2 - Siklus 4.html" },
-        { label: "Lembar Penilaian Guru Pamong PPL 2 \u2014 Siklus 4", path: "PPL 2/Konseling Individu/Lembar Penilaian Guru Pamong.html" }
+        { label: "RPL Konseling Individual \u2014 RPL, Skenario & Instrumen Evaluasi (PPL 2 \u00B7 Siklus 4)", path: "PPL 2/Konseling Individu/Siklus 4/RPL Konseling Individual.pdf" }
       ]
-    }
-  };
-
+    },
   /* ---------- Modal detail siklus ---------- */
   var modal = doc.getElementById("siklus-modal");
   var modalBody = doc.getElementById("modal-body");
