@@ -283,7 +283,7 @@
   var docsSub = doc.getElementById("docs-modal-sub");
 
   function openDocs(cat) {
-    }
+     
     var d = DOCS[cat];
     if (!d || !docsBody) return;
     docsTitle.textContent = d.title;
