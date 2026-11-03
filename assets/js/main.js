@@ -528,7 +528,9 @@
       dokumen: [
         { label: "RPL Konseling Individual \u2014 RPL, Skenario & Instrumen Evaluasi (PPL 2 \u00B7 Siklus 4)", path: "PPL 2/Konseling Individu/Siklus 4/RPL Konseling Individual.pdf" }
       ]
-    },
+    }
+  };
+
   /* ---------- Modal detail siklus ---------- */
   var modal = doc.getElementById("siklus-modal");
   var modalBody = doc.getElementById("modal-body");
