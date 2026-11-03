@@ -71,7 +71,11 @@
     { src: "PPL 2/Bimbingan Kelompok/Siklus 2/siklus 2.4.jpeg", title: "Bimbingan Kelompok", cap: "PPL 2 \u00B7 Siklus 2 \u2014 Foto 4" },
     { src: "inovasi 1.jpeg", title: "Karya Inovasi", cap: "Dokumentasi Karya Inovasi \u2014 Foto 1" },
     { src: "inovasi 2.jpeg", title: "Karya Inovasi", cap: "Dokumentasi Karya Inovasi \u2014 Foto 2" },
-    { src: "inovasi 3.jpeg", title: "Karya Inovasi", cap: "Dokumentasi Karya Inovasi \u2014 Foto 3" }
+    { src: "inovasi 3.jpeg", title: "Karya Inovasi", cap: "Dokumentasi Karya Inovasi \u2014 Foto 3" },
+    { src: "PPL 2/Konseling Kelompok/Siklus 3/siklus3.1.jpeg", title: "Konseling Kelompok", cap: "PPL 2 \u00B7 Siklus 3 \u2014 Kegiatan Layanan Kelompok" },
+    { src: "PPL 2/Konseling Kelompok/Siklus 3/siklus3.2.jpeg", title: "Konseling Kelompok", cap: "PPL 2 \u00B7 Siklus 3 \u2014 Foto 2" },
+    { src: "PPL 2/Konseling Kelompok/Siklus 3/siklus3.3.jpeg", title: "Konseling Kelompok", cap: "PPL 2 \u00B7 Siklus 3 \u2014 Foto 3" },
+    { src: "PPL 2/Konseling Kelompok/Siklus 3/siklus3.4.jpeg", title: "Konseling Kelompok", cap: "PPL 2 \u00B7 Siklus 3 \u2014 Foto 4" }
   ];
   var galleryPalette = [
     ["#0ea5e9", "#155e75"], ["#8b5cf6", "#6d28d9"], ["#14b8a6", "#0f766e"], ["#f59e0b", "#b45309"]
@@ -223,7 +227,8 @@
         { label: "RPL BK Kelompok \u2014 Tanggung Jawab Sosial (Siklus 2)", path: "SIKLUS 2/RPL_BK_KLP_Tanggung_Jawab_Sosial.pdf" },
         { label: "RPL Klasikal \u2014 Seni Berteman (Siklus 3)", path: "SIKLUS 3/RPL_Klasikal_Seni Berteman Keterampilan Berinteraksi Sosial yang Positif & Menyenangkan.pdf" },
         { label: "RPLBK \u2014 Manajemen Waktu & Anti-Kecemasan (PPL 2 \u00B7 Siklus 1)", path: "PPL 2/Bimbingan Klasikal/Siklus 1/RPLBK Manajemen Waktu & Anti-Kecemasan Ujian.pdf" },
-        { label: "RPL Bimbingan Kelompok \u2014 Konflik & Senioritas (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/RPL Bimbingan Kelompok.pdf" }
+        { label: "RPL Bimbingan Kelompok \u2014 Konflik & Senioritas (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/RPL Bimbingan Kelompok.pdf" },
+        { label: "RPL Konseling Kelompok \u2014 Konflik & Senioritas (PPL 2 \u00B7 Siklus 3)", path: "PPL 2/Konseling Kelompok/Siklus 3/RPL Konseling Kelompok.pdf" }
       ]
     },
     laporan: {
@@ -264,7 +269,10 @@
         { label: "Rekapitulasi Evaluasi Proses \u2014 Bimbingan Klasikal (PPL 2 \u00B7 Siklus 1)", path: "PPL 2/Bimbingan Klasikal/Siklus 1/Rekap_Evaluasi_Proses.pdf" },
         { label: "Rekapitulasi Evaluasi Hasil \u2014 Bimbingan Klasikal (PPL 2 \u00B7 Siklus 1)", path: "PPL 2/Bimbingan Klasikal/Siklus 1/Rekap_Evaluasi_Hasil.pdf" },
         { label: "Rekapitulasi Evaluasi Proses \u2014 Bimbingan Kelompok (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekapitulasi_Evaluasi_Proses.pdf" },
-        { label: "Rekapitulasi Evaluasi Hasil \u2014 Bimbingan Kelompok (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekapitulasi_Evaluasi_Hasil_Bimbingan_Kelompok.pdf" }
+        { label: "Rekapitulasi Evaluasi Hasil \u2014 Bimbingan Kelompok (PPL 2 \u00B7 Siklus 2)", path: "PPL 2/Bimbingan Kelompok/Siklus 2/Rekapitulasi_Evaluasi_Hasil_Bimbingan_Kelompok.pdf" },
+        { label: "LKPD \u2014 Konseling Kelompok (PPL 2 \u00B7 Siklus 3)", path: "PPL 2/Konseling Kelompok/Siklus 3/LKPD Konseling Kelompok.pdf" },
+        { label: "Instrumen Evaluasi Proses \u2014 Konseling Kelompok (PPL 2 \u00B7 Siklus 3)", path: "PPL 2/Konseling Kelompok/Siklus 3/INSTRUMEN EVALUASI PROSES KONSELING KELOMPOK.pdf" },
+        { label: "Instrumen Evaluasi Hasil \u2014 Konseling Kelompok (PPL 2 \u00B7 Siklus 3)", path: "PPL 2/Konseling Kelompok/Siklus 3/INSTRUMEN EVALUASI HASIL KONSELING KELOMPOK.pdf" }
       ]
     }
   };
@@ -477,31 +485,31 @@
       badge: "PPL 2",
       jenis: "Konseling Kelompok",
       tema: "Konflik Interpersonal dan Senioritas",
-      info: { "Bidang": "Pribadi &amp; Sosial", "Fungsi": "Pengentasan Masalah", "Sasaran": "Kelompok konseling 6\u20138 konseli", "Waktu": "2 \u00d7 40 menit" },
+      info: { "Bidang": "Pribadi - Sosial", "Fungsi": "Pengentasan Masalah", "Sasaran": "Kelas VIII (6 konseli)", "Waktu": "1 \u00d7 40 menit" },
       tujuan: [
-        "Konseli mampu mengungkapkan permasalahan yang dialaminya.",
-        "Konseli memperoleh dukungan dan perspektif baru dari anggota kelompok.",
-        "Konseli dapat merencanakan penyelesaian masalah bersama."
+        "Membantu anggota kelompok mengatasi perasaan demotivasi (malas sekolah), kecemasan, dan ketidaknyamanan akibat konflik dengan kakak kelas.",
+        "Menemukan strategi coping asertif dan penyelesaian masalah terkait senioritas di sekolah.",
+        "Menyusun rencana tindakan yang aman dalam merespons tekanan senioritas."
       ],
-      asesmen: "Assessment individu sebelum penempatan dalam kelompok konseling.",
-      materi: "Manajemen masalah, saling empati, dan pengambilan keputusan.",
-      metode: "Konseling kelompok (dinamika kelompok terapeutik).",
-      media: "Kartu kasus dan lembar rencana penyelesaian masalah.",
+      asesmen: "AKPD, wawancara langsung, dan catatan kasus Guru BK (teridentifikasi 6 peserta didik).",
+      materi: "Konflik interpersonal & senioritas; pengenalan perasaan; gaya respons pasif\u2013agresif\u2013asertif; keterampilan asertif.",
+      metode: "Cognitive Behavioral Therapy (CBT) dengan teknik Assertive Training dan Cognitive Restructuring.",
+      media: "Lembar Latihan Konseling Kelompok Sesi 2 (Mengenali Perasaan & Melatih Respons Asertif), alat tulis, dan lembar evaluasi.",
       tahapan: [
-        { nama: "Pembentukan", isi: "Pengenalan diri, penjelasan asas konseling, dan kesepakatan bersama." },
-        { nama: "Peralihan", isi: "Pengecekan kesiapan anggota dan jembatan menuju kegiatan inti." },
-        { nama: "Kegiatan Inti", isi: "Pengungkapan masalah secara bergantian, diskusi solusi, dan perencanaan tindakan." },
-        { nama: "Pengakhiran", isi: "Rangkuman hasil, evaluasi, dan tindak lanjut konseling." }
+        { nama: "Tahap Awal", isi: "Sapaan ramah, ice breaking \u201CTarik Napas & Senyum\u201D, penyampaian tujuan, aturan main, asas kerahasiaan & kesukarelaan, serta harapan anggota." },
+        { nama: "Tahap Peralihan", isi: "Menanyakan kesiapan, mengatasi keraguan, arahan fokus eksplorasi, dan komitmen saling mendukung serta menjaga kerahasiaan." },
+        { nama: "Tahap Inti", isi: "Anggota bergantian menceritakan sindiran/hate comment; mengisi Lembar Latihan Sesi 2; membedakan respons pasif\u2013agresif\u2013asertif; menyusun kalimat asertif; role-play; menyusun rencana tindakan aman." },
+        { nama: "Tahap Pengakhiran", isi: "Refleksi akhir, analisis \u201Cso what\u201D, penyusunan RTL (\u201Cnow what\u201D), penguatan komitmen, dan penutup." }
       ],
-      evaluasi: "Lembar evaluasi proses dan hasil konseling kelompok.",
-      tindakLanjut: "Konseling lanjutan atau pengalihantanganan sesuai kebutuhan konseli.",
+      evaluasi: "Proses: observasi keterlibatan, keterbukaan, empati, dan jalannya role-play. Hasil: peningkatan motivasi, perubahan pikiran, serta instrumen kepuasan & observasi perilaku.",
+      tindakLanjut: "Pemantauan kehadiran & motivasi (minggu ke-2\u20133), review lembar latihan asertif, kolaborasi dengan wali kelas/Pembina OSIS, dan mediasi/pemanggilan pelaku bila perlu.",
       dokumen: [
-        { label: "RPLBK PPL 2 \u2014 Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/RPLBK PPL 2 - Siklus 3.html" },
-        { label: "LKPD PPL 2 \u2014 Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/LKPD PPL 2 - Siklus 3.html" },
-        { label: "Media PPL 2 \u2014 Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/Media PPL 2 - Siklus 3.html" },
-        { label: "Rekap Proses PPL 2 \u2014 Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/Rekap Proses PPL 2 - Siklus 3.html" },
-        { label: "Rekap Hasil PPL 2 \u2014 Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/Rekap Hasil PPL 2 - Siklus 3.html" },
-        { label: "Lembar Penilaian Guru Pamong PPL 2 \u2014 Siklus 3", path: "PPL 2/Konseling Kelompok/Lembar Penilaian Guru Pamong.html" }
+        { label: "RPL Konseling Kelompok — Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/RPL Konseling Kelompok.pdf" },
+        { label: "LKPD Konseling Kelompok — Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/LKPD Konseling Kelompok.pdf" },
+        { label: "Media PPL 2 — Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/Media PPL 2 - Siklus 3.html" },
+        { label: "Rekap Proses PPL 2 — Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/INSTRUMEN EVALUASI PROSES KONSELING KELOMPOK.pdf" },
+        { label: "Rekap Hasil PPL 2 — Siklus 3", path: "PPL 2/Konseling Kelompok/Siklus 3/INSTRUMEN EVALUASI HASIL KONSELING KELOMPOK.pdf" },
+        { label: "Lembar Penilaian Guru Pamong PPL 2 — Siklus 3", path: "PPL 2/Konseling Kelompok/Lembar Penilaian Guru Pamong.html" }
       ]
     },
     "ppl2-s4": {
